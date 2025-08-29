@@ -4,7 +4,7 @@ const Reasons = () => {
       <div className="section flex flex-col 1xl:flex-row-reverse gap-[108px] 1xl:gap-4 3xl:gap-[122px] 4xl:gap-[108px] 4xl:justify-end">
         <div className="w-full shrink-1 4xl:pt-13 4xl:max-w-[1370px]">
           <h2 className="mb-14.5 1xl:mb-20 3xl:mb-17 4xl:mb-15 font-second font-medium text-center 1xl:text-left 1xl:ml-1 3xl:ml-0">
-            Чому саме MVK MASH?
+            Заголовок
           </h2>
           <ul className="grid grid-cols-1 lg:flex flex-wrap 1xl:grid-cols-2 gap-21.5 1xl:gap-x-6.5 4xl:gap-x-32.5 1xl:gap-y-23.5 3xl:gap-y-21.5">
             <li className="border-t border-t-tuatara/75 pt-4.5 1xl:pt-10 lg:max-w-105">
@@ -13,12 +13,15 @@ const Reasons = () => {
                 <p>(01)</p>
               </div>
               <p className="text-[28px]/[114%] font-bold text-mercury-white mb-6.5">
-                <span className="text-tangerine">13 РОКІВ </span>ЕКСПЕРТИЗИ
+                <span className="text-tangerine capitalize">ПІДЗАГОЛОВОК </span>
+                ВАЖЛИВЕ ПОМАРАНЧЕВИМ
               </p>
               <p className="text-xl/[110%] text-boulder-dust 3xl:max-w-[520px]">
-                Власне виробництво та розробка автоматизованих систем — з нуля
-                до масштабних рішень. <br /> Виготовлення та запуск торгових
-                об’єктів.
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст
               </p>
             </li>
             <li className="border-t border-t-tuatara/75 pt-4.5 1xl:pt-10 lg:max-w-105">
@@ -27,12 +30,15 @@ const Reasons = () => {
                 <p>(02)</p>
               </div>
               <p className="text-[28px]/[114%] font-bold text-mercury-white mb-6.5">
-                <span className="text-tangerine">513 ПРОЄКТІВ </span>У 74
-                КРАЇНАХ
+                <span className="text-tangerine capitalize">ПІДЗАГОЛОВОК </span>
+                ВАЖЛИВЕ ПОМАРАНЧЕВИМ
               </p>
               <p className="text-xl/[110%] text-boulder-dust 3xl:max-w-[520px]">
-                Наші технології вже працюють у всьому світі — від Європи до
-                Азії.
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст
               </p>
             </li>
             <li className="border-t border-t-tuatara/75 pt-4.5 1xl:pt-10 lg:max-w-105">
@@ -41,12 +47,15 @@ const Reasons = () => {
                 <p>(03)</p>
               </div>
               <p className="text-[28px]/[114%] font-bold text-mercury-white mb-6.5">
-                ПАРТНЕРИ В{' '}
-                <span className="text-tangerine">10+ КРАЇНАХ ЄС </span>
+                <span className="text-tangerine capitalize">ПІДЗАГОЛОВОК </span>
+                ВАЖЛИВЕ ПОМАРАНЧЕВИМ
               </p>
               <p className="text-xl/[110%] text-boulder-dust 3xl:max-w-[520px]">
-                Нам довіряють компанії з Іспанії, Португалії, Греції, Чехії,
-                Польщі та інших країн.
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст
               </p>
             </li>
           </ul>
