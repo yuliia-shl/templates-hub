@@ -25,57 +25,71 @@ export default function Provides() {
           <ul className="flex flex-col gap-y-6 xs:gap-y-10.5 lg:gap-x-8 1xl:gap-x-4 xs:text-lg/[156%] text-mercury-white font-semibold 1xl:font-bold 1xl:text-[22px]/[127%] lg:flex-row lg:flex-wrap 1xl:ml-auto 3xl:gap-x-13 4xl:gap-x-18 1xl:max-w-[904px] 3xl:max-w-[1142px] 4xl:max-w-[1540px] 4xl:text-[28px]/[136%]">
             <li className="flex gap-6 h-16 items-center lg:max-w-114 1xl:max-w-[444px] 3xl:max-w-[544px] 4xl:max-w-[732px] w-full">
               <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <svg className="flex w-6.5 h-6.5 xs:w-8.5 xs:h-8.5 fill-tangerine shrink-0">
-                  <use href="/images/svg/icons.svg#icon-8"></use>
-                </svg>
+                <img
+                  src="/images/icons-png/cleaning.png"
+                  alt="Іконка"
+                  className="max-w-6.5 xs:max-w-8.5"
+                />
               </span>
               <p>Хімчистка, ремонт одягу та аксесуарів</p>
             </li>
             <li className="flex gap-6 h-16 items-center lg:max-w-114 1xl:max-w-[444px] 3xl:max-w-[544px] 4xl:max-w-[732px] w-full">
               <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <svg className="w-6.5 h-6.5 xs:w-8.5 xs:h-8.5 fill-tangerine shrink-0">
-                  <use href="/images/svg/icons.svg#icon-9"></use>
-                </svg>
+                <img
+                  src="/images/icons-png/health.png"
+                  alt="Іконка"
+                  className="max-w-6.5 xs:max-w-8.5"
+                />
               </span>
               <p>Реалізація оздоровчих товарів</p>
             </li>
             <li className="flex gap-6 h-16 items-center lg:max-w-114 1xl:max-w-[444px] 3xl:max-w-[544px] 4xl:max-w-[732px] w-full">
               <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <svg className="w-6.5 h-6.5 xs:w-8.5 xs:h-8.5 fill-tangerine shrink-0">
-                  <use href="/images/svg/icons.svg#icon-11"></use>
-                </svg>
+                <img
+                  src="/images/icons-png/flowers.png"
+                  alt="Іконка"
+                  className="max-w-6.5 xs:max-w-8.5"
+                />
               </span>
               <p>Продаж ексклюзивних букетів та авторських композицій</p>
             </li>
             <li className="flex gap-6 h-16 items-center lg:max-w-114 1xl:max-w-[444px] 3xl:max-w-[544px] 4xl:max-w-[732px] w-full">
               <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <svg className="w-6.5 h-6.5 xs:w-8.5 xs:h-8.5 fill-tangerine shrink-0">
-                  <use href="/images/svg/icons.svg#icon-6"></use>
-                </svg>
+                <img
+                  src="/images/icons-png/cargo.png"
+                  alt="Іконка"
+                  className="max-w-6.5 xs:max-w-8.5"
+                />
               </span>
               <p>Логістика: пункт передачі посилок</p>
             </li>
             <li className="flex gap-6 h-16 items-center lg:max-w-114 1xl:max-w-[444px] 3xl:max-w-[544px] 4xl:max-w-[732px] w-full">
               <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <svg className="w-6.5 h-6.5 xs:w-8.5 xs:h-8.5 fill-tangerine shrink-0">
-                  <use href="/images/svg/icons.svg#icon-7"></use>
-                </svg>
+                <img
+                  src="/images/icons-png/service.png"
+                  alt="Іконка"
+                  className="max-w-6.5 xs:max-w-8.5"
+                />
               </span>
               <p>Прокат техніки та інструментів</p>
             </li>
             <li className="flex gap-6 h-16 items-center lg:max-w-114 1xl:max-w-[444px] 3xl:max-w-[544px] 4xl:max-w-[732px] w-full">
               <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <svg className="w-6.5 h-6.5 xs:w-8.5 xs:h-8.5 fill-tangerine shrink-0">
-                  <use href="/images/svg/icons.svg#icon-10"></use>
-                </svg>
+                <img
+                  src="/images/icons-png/secure.png"
+                  alt="Іконка"
+                  className="max-w-6.5 xs:max-w-8.5"
+                />
               </span>
               <p>Автоматична камера зберігання речей</p>
             </li>
             <li className="flex gap-6 h-16 items-center lg:max-w-114 1xl:max-w-[444px] 3xl:max-w-[544px] 4xl:max-w-[732px]">
               <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <svg className="w-6.5 h-6.5 xs:w-8.5 xs:h-8.5 fill-tangerine shrink-0">
-                  <use href="/images/svg/icons.svg#icon-12"></use>
-                </svg>
+                <img
+                  src="/images/icons-png/home.png"
+                  alt="Іконка"
+                  className="max-w-6.5 xs:max-w-8.5"
+                />
               </span>
               <p>Швидкі побутові послуги</p>
             </li>
