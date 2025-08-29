@@ -10,9 +10,9 @@ import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import Footer from './components/Footer/Footer';
 
 import ToastProvider from './components/Toast/ToastProvider';
-import Important from './components/Important/Important';
 import ForClient from './components/ForClient/ForClient';
 import LockerType from './components/LockerType/LockerType';
+import Reasons from './components/Reasons/Reasons';
 
 function App() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -42,7 +42,7 @@ function App() {
         <main>
           <Hero />
           <Provides />
-          <Important />
+          <Reasons />
           <ForClient />
           <LockerType />
           <FAQ />
