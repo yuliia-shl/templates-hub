@@ -3,7 +3,7 @@ import AskUsButton from '../AskUsButton/AskUsButton';
 
 const FAQ = () => {
   return (
-    <section className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
+    <section id="questions" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section">
         <div className="flex flex-col 1xl:flex-row 1xl:justify-start 1xl:gap-24 4xl:gap-55">
           {/* Left: h2 + desktop-only button */}

@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Provides from './components/Provides/Provides';
 import Reasons from './components/Reasons/Reasons';
-import ForClient from './components/ForClient/ForClient';
+import Information from './components/Information/Information';
 import LockerType from './components/LockerType/LockerType';
 import FAQ from './components/FAQ/FAQ';
 import MoreInfo from './components/MoreInfo/MoreInfo';
@@ -14,7 +14,6 @@ import Footer from './components/Footer/Footer';
 import ToastProvider from './components/Toast/ToastProvider';
 
 function App() {
-  const [activeIndex, setActiveIndex] = useState(0);
   const [showPolicy, setShowPolicy] = useState(false);
 
   const openPolicy = () => {
@@ -29,11 +28,7 @@ function App() {
 
   return (
     <>
-      <Header
-        setActiveIndex={setActiveIndex}
-        isPrivacy={showPolicy}
-        onShowHome={closePolicy}
-      />
+      <Header isPrivacy={showPolicy} onShowHome={closePolicy} />
 
       {showPolicy ? (
         <PrivacyPolicy />
@@ -42,7 +37,7 @@ function App() {
           <Hero />
           <Provides />
           <Reasons />
-          <ForClient />
+          <Information />
           <LockerType />
           <FAQ />
           <MoreInfo />
