@@ -8,7 +8,7 @@ const FAQ = () => {
         <div className="flex flex-col 1xl:flex-row 1xl:justify-start 1xl:gap-24 4xl:gap-55">
           {/* Left: h2 + desktop-only button */}
           <div className="flex flex-col lg:flex-row  lg:justify-between 1xl:justify-start 1xl:flex-col 1xl:items-start 1xl:w-[362px] 3xl:w-[488px] 4xl:w-[534px] 1xl:gap-8.5 3xl:gap-12.5 4xl:gap-10.5 4xl:pt-2.5 mb-8 xs:mb-12 lg:mb-26.5 1xl:mb-0">
-            <h2 className="leading-[110%] text-[22px] xs:text-[32px] lg:text-[40px] 1xl:text-[42px] 3xl:text-5xl 4xl:text-[62px] font-second font-medium text-center 1xl:text-left tracking-[-0.02em] whitespace-nowrap">
+            <h2 className="leading-[110%] font-second font-medium text-center 1xl:text-left tracking-[-0.02em] whitespace-nowrap">
               Часті питання
             </h2>
             <AskUsButton targetId="more-info" className="hidden lg:flex" />

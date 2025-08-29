@@ -70,7 +70,7 @@ const MoreInfo = () => {
         <div className="pt-8 pb-7 px-3 xs:pt-10.5 xs:pb-14 xs:px-6 lg:pt-16 lg:pb-9 lg:px-15.5 1xl:py-12.5 1xl:px-12 3xl:pr-25 3xl:pl-19 4xl:px-30 4xl:py-28.5 bg-cod-dark rounded-[26px] xs:gap-18 lg:gap-0 3xl:gap-x-75 4xl:gap-x-81 flex flex-col 1xl:flex-row">
           {/* Ліва колонка: заголовок + опис */}
           <div className="flex flex-col mb-6.5 xs:mb-0 lg:mb-9.5 1xl:max-w-[626px] 3xl:max-w-[498px] 4xl:max-w-[680px] 1xl:pt-[34px] 4xl:pt-[6px] justify-start gap-y-1.5 xs:gap-y-3.5 lg:gap-y-4.5 1xl:gap-y-7 3xl:gap-y-11">
-            <h2 className="text-[22px]/[118%] xs:text-[32px]/[119%] lg:text-[42px]/[110%] 3xl:text-5xl tracking-[-0.02em] font-medium font-second">
+            <h2 className="leading-[110%] tracking-[-0.02em] font-medium font-second">
               Потрібно більше інформації?
             </h2>
             <p className="text-base/[112%] w-[277px] xs:w-[426px] lg:w-[552px] 1xl:w-[439px] 3xl:w-[477px] xs:text-lg/[133%] lg:text-xl/[120%] 1xl:text-xl/[120%] text-boulder-dust">

@@ -1,7 +1,4 @@
 import SmartButton from '../ui/Button/SmartButton';
-import heroVideoWebm from '../../assets/video/heroVideo.webm';
-import heroVideoMp4 from '../../assets/video/heroVideo.mp4';
-import poster from '../../assets/images/poster.webp';
 
 const Hero = () => {
   return (
@@ -16,17 +13,16 @@ const Hero = () => {
             playsInline
             preload="metadata"
             style={{ pointerEvents: 'none' }}
-            poster={poster}
+            poster="/images/poster.webp"
           >
-            <source src={heroVideoWebm} type="video/webm" />
-            <source src={heroVideoMp4} type="video/mp4" />
+            <source src="/video/video.webm" type="video/webm" />
+            <source src="/video/video.mp4" type="video/mp4" />
             Ваш браузер не підтримує тег video.
           </video>
 
           {/* Контент поверх відео */}
 
           <div className="section flex flex-col justify-around lg:justify-center lg:items-center h-full">
-            {/* <HiroTitle className="lg:flex flex-col items-center lg:mb-12 4xl:mb-8.5" /> */}
             <div className="lg:flex flex-col items-center lg:mb-12 4xl:mb-8.5">
               <h1 className="mt-25 1xl:mt-0 font-second text-[34px]/[1] mb-5.5 1xl:mb-3.5  1xl:text-[64px]/[1] 3xl:text-[82px]/[1] 4xl:text-[94px]/[1] font-medium text-gallery-white">
                 <span className="text-tangerine">Smart</span> Locker HUB
