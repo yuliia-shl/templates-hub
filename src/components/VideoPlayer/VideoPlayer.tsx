@@ -1,5 +1,7 @@
 import HiroTitle from '../HeroTitle/HeroTitle';
 import SmartButton from '../ui/Button/SmartButton';
+import heroVideoWebm from '../../assets/video/heroVideo.webm';
+import heroVideoMp4 from '../../assets/video/heroVideo.mp4';
 
 const VideoPlayer = () => {
   return (
@@ -14,8 +16,8 @@ const VideoPlayer = () => {
         style={{ pointerEvents: 'none' }}
         poster="/images/webp/hub-gallery/AleksGolub-05946-2.webp"
       >
-        <source src="/video/heroVideo.webm" type="video/webm" />
-        <source src="/video/heroVideo.mp4" type="video/mp4" />
+        <source src={heroVideoWebm} type="video/webm" />
+        <source src={heroVideoMp4} type="video/mp4" />
         Ваш браузер не підтримує тег video.
       </video>
 
