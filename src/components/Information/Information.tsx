@@ -15,25 +15,25 @@ const Information = () => {
           />
         </div>
 
-        <ul className="flex flex-col gap-20">
+        <ul className="flex flex-col gap-20 lg:gap-18">
           {information.map((info, index) => {
             return (
               <li
                 key={index}
-                className="border-t border-tuatara/75 pt-8 flex flex-col gap-10 1xl:flex-row 1xl:justify-between"
+                className="border-t border-tuatara/75 pt-8 flex flex-col gap-10 lg:flex-row 3xl:gap-63 4xl:gap-90"
               >
                 <p className="text-3xl/[87%] xs:text-4xl/[87%] text-boulder-dust font-medium">
                   {info.number}
                 </p>
-                <div className="flex flex-col gap-4 1xl:max-w-[730px]">
-                  <h3 className="text-2xl/[100%] xs:text-3xl/[87%] text-mercury-white font-semibold">
+                <div className="flex flex-col gap-4 1xl:max-w-[730px] 4xl:max-w-[770px]">
+                  <h3 className="text-2xl/[100%] xs:text-[32px]/[87%] text-mercury-white font-semibold">
                     {info.title}
                   </h3>
                   <p className="text-lg/[122%] text-boulder-dust">
                     {info.description}
                   </p>
                 </div>
-                <div className="flex justify-between text-2xl/[87%] text-boulder-dust font-medium 1xl:w-105">
+                <div className="flex justify-between text-2xl/[87%] 1xl:text-[32px]/[87%] text-boulder-dust font-medium lg:min-w-60 1xl:min-w-100 3xl:min-w-126 4xl:min-w-183 shrink-0">
                   <p>{info.price}</p>
                   <p>{info.duration}</p>
                 </div>
