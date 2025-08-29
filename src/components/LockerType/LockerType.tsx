@@ -29,11 +29,11 @@ const LockerType = () => {
               {lockers.map((locker, index) => {
                 return (
                   <li key={index} className="flex items-center gap-6">
-                    <div className="p-4 bg-woodsmoke-dark rounded-full flex items-center justify-center">
+                    <div className="p-4 bg-woodsmoke-dark rounded-full flex items-center justify-center max-w-16 max-h-16">
                       <img
                         src={locker.imgPath}
                         alt={`Фото ${locker.title}`}
-                        className="w-8.5 h-8.55"
+                        className="max-w-8.5"
                       />
                     </div>
                     <div>
